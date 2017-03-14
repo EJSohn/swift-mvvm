@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		45C6D1111E77E64B00E25A9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C6D1101E77E64B00E25A9E /* AppDelegate.swift */; };
-		45C6D1131E77E64B00E25A9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C6D1121E77E64B00E25A9E /* ViewController.swift */; };
 		45C6D1161E77E64C00E25A9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C6D1141E77E64C00E25A9E /* Main.storyboard */; };
 		45C6D1181E77E64C00E25A9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C6D1171E77E64C00E25A9E /* Assets.xcassets */; };
 		45C6D11B1E77E64C00E25A9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C6D1191E77E64C00E25A9E /* LaunchScreen.storyboard */; };
 		45C6D1261E77E64C00E25A9E /* mvvm_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C6D1251E77E64C00E25A9E /* mvvm_swiftTests.swift */; };
 		45C6D1311E77E64C00E25A9E /* mvvm_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C6D1301E77E64C00E25A9E /* mvvm_swiftUITests.swift */; };
 		45C6D13F1E77E78100E25A9E /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C6D13E1E77E78100E25A9E /* Car.swift */; };
+		45C6D1411E77F07400E25A9E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C6D1401E77F07400E25A9E /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		45C6D10D1E77E64B00E25A9E /* mvvm-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mvvm-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45C6D1101E77E64B00E25A9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		45C6D1121E77E64B00E25A9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		45C6D1151E77E64C00E25A9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45C6D1171E77E64C00E25A9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45C6D11A1E77E64C00E25A9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		45C6D1301E77E64C00E25A9E /* mvvm_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvvm_swiftUITests.swift; sourceTree = "<group>"; };
 		45C6D1321E77E64C00E25A9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45C6D13E1E77E78100E25A9E /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		45C6D1401E77F07400E25A9E /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				45C6D1101E77E64B00E25A9E /* AppDelegate.swift */,
-				45C6D1121E77E64B00E25A9E /* ViewController.swift */,
 				45C6D1141E77E64C00E25A9E /* Main.storyboard */,
 				45C6D1171E77E64C00E25A9E /* Assets.xcassets */,
 				45C6D1191E77E64C00E25A9E /* LaunchScreen.storyboard */,
 				45C6D11C1E77E64C00E25A9E /* Info.plist */,
 				45C6D13E1E77E78100E25A9E /* Car.swift */,
+				45C6D1401E77F07400E25A9E /* TableViewController.swift */,
 			);
 			path = "mvvm-swift";
 			sourceTree = "<group>";
@@ -262,9 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45C6D1131E77E64B00E25A9E /* ViewController.swift in Sources */,
 				45C6D1111E77E64B00E25A9E /* AppDelegate.swift in Sources */,
 				45C6D13F1E77E78100E25A9E /* Car.swift in Sources */,
+				45C6D1411E77F07400E25A9E /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
